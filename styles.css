@@ -1,0 +1,342 @@
+/*
+Design by Metamorphosis Design
+http://www.metamorphozis.com
+Released for free under a Creative Commons Attribution 2.5 License
+*/
+
+a:link {
+	color: #356011;
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #353535;
+}
+
+a:visited {
+	color: #356011;
+}
+
+*
+{
+border: 0;
+margin: 0;
+}
+
+body
+{
+
+	font: 14px Tahoma, Arial, Helvetica, sans-serif;
+	color: #333333;
+	background: #6d8835 url(images/bg.gif) repeat-x;
+}
+
+#bg{
+	background:url(images/bgtop.jpg) no-repeat center top;
+}
+
+#main
+{
+margin: 0 auto;
+width: 920px;
+background: #e3fdac;
+border-right: 10px solid #e3fdac;
+border-left: 10px solid #e3fdac;
+}
+
+#header
+{
+width: 920px;
+margin: 0 auto;
+height: 327px;
+background: url(images/header.jpg) no-repeat center bottom;
+border-bottom: 8px solid #e3fdac;
+}
+
+#logo
+{
+padding-left:25px;
+text-align: left;
+padding-top: 5px;
+height: 207px;
+}
+
+#logo a {
+	text-decoration: none;
+	
+	font-style: italic;
+	font-size: 48px;
+	color: #3a6611;
+	font-weight: bold;
+}
+
+
+#logo H2 a
+{
+font-size: 10px;
+}
+
+#buttons
+{
+	width: 920px;
+	height: 62px;
+	margin: 0 auto;
+	background: url(images/menu.gif) repeat-x;
+}
+
+#buttons ul {
+    padding-left: 0px;
+    margin: 0px;      
+}
+
+#buttons li {
+display: inline;
+	
+}
+
+#buttons a {
+	
+	float: left;
+	width: 115px;
+	height: 50px;
+	text-align: center;
+	text-decoration: none;
+
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 14px;
+	padding-top: 16px;//22
+	margin-right: 5px;
+
+}
+
+
+#buttons a:hover {
+	width: 115px;
+    height: 40px;
+	background: url(images/menu_hover.gif) repeat-x;
+}
+
+
+#content
+{
+width: 910px;
+padding: 5px;
+}
+
+#content_bg{
+	background: #e3fdac url(images/content_bg.gif) repeat-x top;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-top: 1px solid #e3fdac;
+}
+
+#category
+{
+width: 600px;
+padding: 10px;
+margin: 5px;
+background: #ffffff;
+border: 1px solid #3a6611;
+float:right;
+}
+
+.text{
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+
+#category H1, #category H2
+{
+color: #356011;
+font-size: 24px;
+font-family:Georgia, "Times New Roman", Times, serif;
+padding-top: 20px;
+padding-left: 10px;
+background: url(images/title_left.gif) no-repeat;
+font-weight:normal;
+border-bottom: 1px solid #356011;
+}
+
+.post{
+	color: #356011;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#category a
+{
+ color: #356011;
+}
+
+#category a:hover{
+	text-decoration: none;
+	color: #353535;
+}
+
+#category a:visited {
+	color: #356011;
+}
+#news
+{
+width: 880px;
+padding: 10px;
+background: #ffffff;
+border: 1px solid #3a6611;
+}
+
+.text{
+	padding-top: 5px;
+	padding-bottom: 30px;
+}
+
+#news H1, #news H2
+{
+color: #356011;
+font-size: 24px;
+font-family:Georgia, "Times New Roman", Times, serif;
+padding-top: 20px;
+padding-left: 10px;
+background: url(images/title_left.gif) no-repeat;
+font-weight:normal;
+border-bottom: 1px solid #356011;
+}
+
+.post{
+	color: #356011;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size: 12px;
+	font-weight: normal;
+}
+
+#news a
+{
+ color: #356011;
+}
+
+#news a:hover{
+	text-decoration: none;
+	color: #353535;
+}
+
+#news a:visited {
+	color: #356011;
+}
+
+.date {
+	
+	margin: 0 auto;
+	color: #356011;
+	font-size: 11px;
+	padding-top: 10px;
+	padding-left: 10px;
+	border-top: 1px solid #356011;
+	font-weight:bold;
+}
+
+.date a {
+	color: #356011;
+	text-decoration:none;
+}
+
+.dateleft{
+	background:url(images/comment.gif) no-repeat;
+	padding-left: 30px;
+	height: 16px;
+	margin-top: 2px;
+	width:200px;
+	margin-left: 120px;
+	width: 130px;
+}
+
+.dateright{
+	margin-top: 2px;
+	background:url(images/timeicon.gif) no-repeat left;
+	padding-left: 25px;
+	height: 16px;
+	float: right;
+
+}
+
+
+#right
+{
+width: 257px;
+padding-right: 7px;
+padding-top: 7px;
+padding-bottom: 7px;
+float:left;
+}
+
+#right ul 
+{
+	list-style: none;
+	display:block;
+	padding-left: 10px;
+	padding-top: 10px;
+}
+
+#right ul li{
+	margin-bottom: 20px;
+	height: 24px;
+}
+
+#archives ul li {
+font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	margin-bottom: 5px;
+	background:url(images/list_style.gif) no-repeat left;
+	padding-left: 15px;
+
+}
+
+#right h2 {
+	height: 34px;
+	background: url(images/title_right.gif) no-repeat;
+	font-size: 18px;
+	color: #ffffff;
+	text-align:center;
+	padding-top: 12px;
+	font-weight: normal;
+}
+
+#right a{
+	text-decoration: none;
+	font-family: Arial, Helvetica, sans-serif;
+	font-family: 12px;
+	font-weight: bold;
+}
+
+#right a:hover {
+	text-decoration: underline;
+}
+
+#right li a {
+	padding-left: 10px;
+	background: url(images/img09.gif) no-repeat;
+}
+
+#footer
+{
+	background: url(images/footer.gif) repeat-x;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 10px;
+	color: #ffffff;
+	padding-top: 20px;
+	text-align: center;
+	clear:both;
+}
+
+#footer a
+{
+color: #ffffff;
+font-size: 10px;
+text-decoration: none;
+}
+.padding
+{
+padding: 10px;
+color:#FF0000;
+font-weight: bold;
+}
